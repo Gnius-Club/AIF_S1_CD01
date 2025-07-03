@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 16: La Gran Aventura Gnius</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 16: La Gran Aventura Gnius</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Integrar y aplicar las habilidades clave de ciudadanía digital para navegar de forma segura, respetuosa y consciente.</li>
+                                        <li>Aplicar normas de privacidad en situaciones complejas.</li>
+                                        <li>Usar herramientas de respeto y comunicación en línea.</li>
+                                        <li>Tomar decisiones sobre el bienestar y el balance digital.</li>
+                                        <li>Identificar el momento para pedir ayuda como primera respuesta.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Demostración práctica de la integración de habilidades clave de ciudadanía digital (privacidad, respeto, balance, seguridad) en escenarios complejos, culminando en el juramento G.N.I.U.S.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Activación Gnius Club: "Simón Dice: El Gran Repaso".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Bienvenidos a nustra última misión queridos Genios ¡Para nuestra última misión, vamos a hacer un juego que pondrá a prueba toda su memoria y sabiduría! Jugaremos a Simón Dice: El Gran Repaso. ¡De pie y listos para demostrar todo lo que saben!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Guía comandos de gestos aprendidos en misiones anteriores.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Simón dice... que se sientan como un rey o reina en su trono! 👑 ¡Simón dice... que hacen la pose de un ladrillo fuerte de la amistad! 💪 ¡Ahora... den un abrazo! ... ¡Ah, los atrapé! ¡Pero qué buen abrazo! ¡Están listos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo de la última misión de forma visual.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 3. Recuerdo Relámpago: El Enigma del Corazón.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genios! Antes de nuestra prueba final, debemos recordar el código más poderoso, el que nos hace humanos. En la pantalla hay tres pistas sobre nuestra última clave secreta. ¿Qué nos quieren decir? (🤗 + 👀 + ❤️)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Los niños descifran el código A.M.A. Conecta con el repaso.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Respuesta de los niños: ""¡Abrazar, Mirar, Amar!"" <br> ""¡CÓDIGO DESCIFRADO! ✨ ¡Saben que el corazón es lo más importante! Y hoy, usarán ese corazón y todo lo que han aprendido en su prueba final para convertirse en verdaderos Maestros Gnius."""</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión de forma visual y con una metáfora de graduación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyecta diapositiva 4. Objetivos de la Misión. (Imagen de un niño/a recibiendo un diploma o medalla Gnius con íconos de 🔒, ❤️, 🏃‍♂️, 🙋‍♀️).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es LA GRAN AVENTURA GNIUS! Es la prueba final. Hoy no aprenderemos una cosa nueva, ¡demostraremos que ya son expertos en TODO! ¡Probarán que saben cómo ser seguros, respetuosos y saludables en el mundo digital! 🔒 ❤️ 🏃‍♂️ 🙋‍♀️</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los niños repiten en coro una frase corta mientras se ponen una mano en el pecho con orgullo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a decirlo con nuestro gesto de Maestro Gnius! (mano en el pecho) Nuestra misión es: ¡Soy un Genio, uso mis poderes con sabiduría!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar la curiosidad con una historia que integra múltiples desafíos.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 5. Brain Boost: Storytelling. (Imagen de un personaje llamado 'Astro' frente a una pantalla con varios problemas).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Astro, un Genios como ustedes. Estaba en su prueba final. En la pantalla, un juego le ofreció un premio si ponía su dirección. Al mismo tiempo, en el chat, otro jugador le dijo '¡qué mal juegas!'. Y para colmo, ¡Astro sintió un dolor en el cuello por estar encorvado!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 6. Pregunta Provocadora.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Astro tenía tres problemas a la vez! ¡Un problema de secretos, un problema de respeto y un problema de cuerpo! Ahora activemos nuestro cerebro... ¿Qué superpoderes Gnius que hemos aprendido necesita usar Astro para resolver todo esto?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conecta la historia con la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡Necesita TODOS sus poderes! Un verdadero Maestro Gnius sabe cómo usar sus herramientas de privacidad, de respeto Y de bienestar al mismo tiempo. ¡Hoy es su turno de enfrentar la prueba final!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Conectar la historia y guiar a los estudiantes en la plataforma.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyecta diapositiva 7. Gamer Express: Activación Plataforma y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Asombroso, Maestros! Ahora vamos al simulador final de Gnius Club. 🚀 ¡Es hora del Gamer Express! Entren a la plataforma y jueguen el reto. En esta prueba encontrarán muchos desafíos mezclados. ¡Usen todos sus poderes para superarla! ¡Demuestren su sabiduría! ¡Adelante!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir la dinámica de juego desconectada, kinestésica y creativa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 8. Challenge: El Laberinto del Maestro Gnius.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Maestros, a su prueba final! ¡Llegó el reto El Laberinto del Maestro Gnius! 🧭 En la pantalla veremos un laberinto con 4 puertas. Para abrir cada puerta, debemos resolver un acertijo usando nuestros poderes Gnius. ¡Resolveremos esto como un gran equipo!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 6 minutos</h3>
+                            <p>Proyecta diapositiva 9. ¡Superando el Laberinto! 4 "puertas".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"""¡Puerta 1: La Puerta de los Secretos! 🔒 Un robot les pregunta: 'Para pasar, dime tu nombre completo'. ¿Qué le respondemos todos juntos? ¡3, 2, 1...! '¡ESO ES PRIVADO!' ¡Puerta abierta!<br>¡Puerta 2: La Puerta de la Amistad! ❤️ En un chat, alguien se burla de su amigo. ¿Cuál es nuestra primera acción? ¡Hacemos el gesto del ESCUDO PROTECTOR! ¡Y le decimos '¡BASTA!'! ¡Puerta abierta!<br>¡Puerta 3: La Puerta del Bienestar! 🏃‍♂️ Llevan mucho tiempo jugando y los ojos les arden. ¿Qué grita nuestro cuerpo? ¡'NECESITO UN DESCANSO'! ¡Puerta abierta!<br>¡Puerta 4: La Puerta del Peligro! ❓ Una página extraña les pide descargar un juego desconocido. ¿Cuál es nuestro llamado de poder? ¡'AYUDA, VEO, DUDA'! ¡Han superado el laberinto!"""</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 10. Revisión Grupal.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡LO LOGRARON! ¡Han superado la prueba final! No resolvieron un problema, ¡resolvieron CUATRO! Usaron sus poderes de privacidad, de respeto, de bienestar y de seguridad. ¡Han demostrado ser verdaderos Maestros Gnius!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyecta diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Misión final y total cumplida! Han llegado al final de este viaje. La pregunta más importante es: ¿Qué son ahora? ¿Qué significa ser un Gnius en el mundo digital?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Los niños responden (expertos, maestros, etc.). Presenta la Clave Secreta como el juramento final de Gnius.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son todo eso y más! Y para que siempre recuerden los pilares de su poder, su juramento final como graduados es el propio nombre de nuestro club. El código G.N.I.U.S.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyecta diapositiva 12. Grabar y Repetir la Clave Secreta.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"""G de GUARDIÁN de mis secretos. <br>N de NAVEGANTE que pide ayuda. <br>I de INTELIGENTE con mi cuerpo. <br>U de UNIDO a mis amigos con respeto.<br>S de SIEMPRE un ciudadano digital genial. <br>¡Repitamos nuestro juramento! ¿La G es para? ¡GUARDIÁN! ... (etc.). ¡FELICIDADES, MAESTROS GNIUS! 🎉"""</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
